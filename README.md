@@ -1,2 +1,2 @@
 # GitFirstTest
- Adesso faccio le modifiche dal Mac
+Adesso faccio le modifiche dal Mac
