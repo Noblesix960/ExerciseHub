@@ -4,6 +4,9 @@
 #include <unistd.h>
 #include "colorprintf.h"
 
+// Program that creates a hand of poker
+// using the colorprintf
+
 typedef enum {quadri, picche, cuori, fiori} semi;
 
 int main(int argc, char const *argv[])
