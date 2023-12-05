@@ -17,6 +17,7 @@ This repository contains my solutions and exercises for programming practice in 
 An exercise that uses many function to get a String in input
 
 // C code for Exercise 1
+
 #include <stdio.h>
 #include <string.h>
 #define MAX_LIMIT 20
