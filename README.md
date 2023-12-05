@@ -82,3 +82,25 @@ If you'd like to contribute to this repository, follow these steps:
    git clone https://github.com/your-username/exercise-repository.git
    
    ```
+3. **Create a new branch:** Before making changes, create a new branch to work on. Use a branch name that describes the feature or fix you're working on.
+	```bash
+	git checkout -b feature/new-feature
+
+	```
+
+4. **Make your changes:** Implement the feature or fix the issue. Ensure your code follows the project's coding guidelines.
+
+5. **Commit your changes:** Once you're satisfied with your changes, commit them using descriptive commit messages.
+	```bash
+	git commit -m 'Add new feature'
+
+	```
+
+6. **Push to the branch:** Push your changes to your forked repository.
+	```bash
+	git push origin feature/new-feature
+	
+	```
+7. **Create a pull request:** Visit your forked repository on GitHub and create a pull request. Provide a clear title and description for your changes.
+
+I appreciate your contributions! They help me improve and maintain the quality of this project.
