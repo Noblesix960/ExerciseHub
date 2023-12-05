@@ -59,8 +59,12 @@ To get started with the exercises, follow these steps:
 Clone this repository to your local machine using the following command:
 
 ```bash
+# Clone the repository
 git clone https://github.com/Noblesix960/GitFirstTest.git
+
+# Navigate to the C exercises
 cd GitFirstTest/C/NanoTest/
 
+# Compile and run Exercise 1
 gcc main.c -o main
 ./main
