@@ -1,4 +1,4 @@
-https://github.com/Noblesix960/GitFirstTest/actions/workflows/WORKFLOW-FILE/badge.svg
+(https://github.com/Noblesix960/GitFirstTest/actions/workflows/WORKFLOW-FILE/badge.svg)
 # Exercise Repository
 
 This repository contains my solutions and exercises for programming practice in Java and C. It's a collection of code snippets and small projects that I've worked on to improve my skills.
