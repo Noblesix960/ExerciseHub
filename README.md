@@ -79,7 +79,7 @@ If you'd like to contribute to this repository, follow these steps:
 2. **Clone the repository:** Clone your forked repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/exercise-repository.git
+   git clone https://github.com/Noblesix960/GitFirstTest.git
    
    ```
 3. **Create a new branch:** Before making changes, create a new branch to work on. Use a branch name that describes the feature or fix you're working on.
