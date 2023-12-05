@@ -68,3 +68,17 @@ cd GitFirstTest/C/NanoTest/
 # Compile and run Exercise 1
 gcc main.c -o main
 ./main
+```
+
+## Contributing
+
+If you'd like to contribute to this repository, follow these steps:
+
+1. **Fork the repository:** Click the "Fork" button on the top right of this page to create your copy of the repository.
+
+2. **Clone the repository:** Clone your forked repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/exercise-repository.git
+   
+   ```
