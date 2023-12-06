@@ -1,4 +1,4 @@
-package TracciaEsame16_10_2023;
+package Exercise1;
 
 // Deve implementare interfaccia Comparable di tipo Auto 
 public class Auto extends Veicolo implements Comparable<Auto> {

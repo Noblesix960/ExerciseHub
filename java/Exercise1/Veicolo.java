@@ -1,4 +1,4 @@
-package TracciaEsame16_10_2023;
+package Exercise1;
 
 public class Veicolo {
     // Dichiaro gli attributi della classe Veicolo

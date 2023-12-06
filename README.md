@@ -4,51 +4,16 @@ This repository contains my solutions and exercises for programming practice in 
 
 ## Table of Contents
 
-- [Java Exercises](#java-exercises)
-- [C Exercises](#c-exercises)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+- [Exercise Repository](#exercise-repository)
+	- [Table of Contents](#table-of-contents)
+	- [How to Use](#how-to-use)
+		- [Cloning the Repository](#cloning-the-repository)
+	- [Java Exercises](#java-exercises)
+		- [Compiling and Running Java Code](#compiling-and-running-java-code)
+	- [C Exercises](#c-exercises)
+		- [Compiling and Running C Code](#compiling-and-running-c-code)
+	- [Contributing](#contributing)
 
-## C Exercises
-
-### Exercise 1: [FirstExample]
-
-An exercise where i use different methods to get a string in input
-
-```c
-// C code for Exercise 1
-
-#include <stdio.h>
-#include <string.h>
-#define MAX_LIMIT 20
-
-// My first program using nano with WSL2 
-
-int main(int argc, char const *argv[]){
-
-	char str[MAX_LIMIT];
-	printf("Hi, tell me your name!\n-> ");
-
-	// I can use different methods to get a string in input.
-
-	// Using the function gets() UNSAFE, there is a chance of Buffer Overflow.
-	// gets(str);
-
-	// Using scanf(), ^\n tells to take input until newline doesn’t get encountered. ^(XOR operator)
-	 scanf("%[^\n]s",str);
-
-	// Using fgets, that is a safer version of gets as it uses MAX_LIMIT.
-	// So there's no chance to get a Buffer Overflow.
-
-	// fgets(str, MAX_LIMIT, stdin);
-	// str[strlen(str) - 1] = '\0';
-
-	printf("Hi %s!", str);
-
-	return 0;
-}
-```
 
 ## How to Use
 
@@ -61,14 +26,39 @@ Clone this repository to your local machine using the following command:
 ```bash
 # Clone the repository
 git clone https://github.com/Noblesix960/GitFirstTest.git
-
-# Navigate to the C exercises
-cd GitFirstTest/C/NanoTest/
-
-# Compile and run Exercise 1
-gcc main.c -o main
-./main
 ```
+
+## Java Exercises
+
+Navigate to the Java exercises directory:
+```bash
+cd GitFirstTest/java/Exercise1
+```
+### Compiling and Running Java Code
+
+To compile and run a Java exercise (e.g., Exercise 1), use the following commands:
+```bash
+javac Exercise1.java
+java Exercise1
+```
+
+Repeat this process for each Java exercise.
+
+## C Exercises
+
+Navigate to the C exercises directory:
+```bash
+cd GitFirstTest/c/Exercise1
+```
+### Compiling and Running C Code
+
+To compile and run a C exercise (e.g., Exercise 1), use the following commands:
+```bash
+gcc Exercise1.c -o Exercise1
+./Exercise1
+```
+
+Repeat this process for each C exercise.
 
 ## Contributing
 
