@@ -4,15 +4,13 @@ This repository contains my solutions and exercises for programming practice in 
 
 ## Table of Contents
 
-- [Exercise Repository](#exercise-repository)
-	- [Table of Contents](#table-of-contents)
-	- [How to Use](#how-to-use)
-		- [Cloning the Repository](#cloning-the-repository)
-	- [Java Exercises](#java-exercises)
-		- [Compiling and Running Java Code](#compiling-and-running-java-code)
-	- [C Exercises](#c-exercises)
-		- [Compiling and Running C Code](#compiling-and-running-c-code)
-	- [Contributing](#contributing)
+- [How to Use](#how-to-use)
+	- [Cloning the Repository](#cloning-the-repository)
+- [Java Exercises](#java-exercises)
+	- [Compiling and Running Java Code](#compiling-and-running-java-code)
+- [C Exercises](#c-exercises)
+	- [Compiling and Running C Code](#compiling-and-running-c-code)
+- [Contributing](#contributing)
 
 
 ## How to Use
