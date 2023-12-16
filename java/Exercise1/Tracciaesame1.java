@@ -28,7 +28,7 @@ public class Tracciaesame1 {
         ArrayList<Auto> listaAuto = new ArrayList<>();
 
         // Creo una stringa dove metto il percorso del file
-        String file = "TracciaEsame1/veicoli.csv";
+        String file = "java/Exercise1/veicoli.csv";
         // Mi creo un reader per leggere man mano le righe nel file
         BufferedReader reader = null;
         // Inizializzo una variabile per lo storage della riga corrente
