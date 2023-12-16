@@ -11,13 +11,22 @@ public class Veicolo {
         this.marca = marca;
     }
 
-    // Creo i metodi Get
+    // Definisco i metodi Get
     public String getTarga() {
         return targa;
     }
 
     public String getMarca() {
         return marca;
+    }
+
+    // Definisco i metodi Set
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setTarga(String targa) {
+        this.targa = targa;
     }
 
 }

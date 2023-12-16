@@ -46,7 +46,7 @@ public class Auto extends Veicolo implements Comparable<Auto> {
 
     @Override
     public String toString() {
-        return "[Modello]: " + modello + "[Marca]: " + this.getMarca() + "[Targa]: " + this.getTarga() + "\n";
+        return "[Modello]: " + modello + " [Marca]: " + this.getMarca() + " [Targa]: " + this.getTarga() + "\n";
     }
 
 }
