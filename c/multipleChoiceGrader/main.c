@@ -68,19 +68,12 @@ void getAnswers(char answers[], int questionsNumber)
     // Loop until valid answers are entered
     while (!upperFlag)
     {
-        printf("Enter answers (A, B, C, D, ?) for %d questions:\n", questionsNumber);
-        
         // Input answers
         fgets(answers, questionsNumber + 1, stdin);
         fflush(stdin);
         
         // Check if answers are valid
         upperFlag = checkUpper(answers);
-        
-        if (!upperFlag)
-        {
-            printf("Invalid input. Answers should be A, B, C, D, or ? only.\n");
-        }
     }
 }
 
