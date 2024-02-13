@@ -26,17 +26,23 @@ This program, named "Multiple Choice Grader," is designed to evaluate multiple-c
 
 ## Example
 
+Suppose you have a quiz with 5 questions and 3 students:
+
+**Input:**
+```plaintext
 5 3
 ABCD?
 ACBDD
 BACAC
 ABDAB
+```
 
-Output in "output.txt":
-
+**Output:**
+```plaintext
 2
 1
 3
+```
 
 
 ## License
